@@ -2,12 +2,12 @@
  * Site header
  */
 .site-header {
+    background-color: white;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     padding: 0 20px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 .site-title {
@@ -150,6 +150,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    padding-top: 86px;
 }
 
 .page-heading {

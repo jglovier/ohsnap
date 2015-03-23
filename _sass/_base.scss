@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    @include serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -193,12 +193,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: #333;
         }
     }
 }

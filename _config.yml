@@ -13,3 +13,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+collections:
+  photos:
+    output: true
+    permalink: /photos/:path/
